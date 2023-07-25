@@ -1,0 +1,38 @@
+{
+    "seed": 0,
+    "model": {
+      "pretrained_best_path": null,
+      "name": "...",
+      "activation": "relu",
+      "linear": {
+        "type": "bjorck",
+        "safe_scaling": false,
+        "power_iters": 2,
+        "bjorck_beta": 0.5,
+        "bjorck_iter": 5,
+        "bjorck_order": 1,
+        "bias": true
+      },
+      "dropout_on": false,
+      "l_constant": 1.0,
+      "output_dim": 10,
+
+      "per_epoch_proj": {
+        "turned_on": false,
+        "every_n_epochs": 100000000,
+        "type": "l_2",
+        "bjorck_beta": 0.5,
+        "bjorck_iter": 20,
+        "bjorck_order": 1,
+        "reset_optimizer": false
+      },
+
+      "per_update_proj": {
+        "turned_on": false,
+        "type": "l_2",
+        "bjorck_beta": 0.5,
+        "bjorck_iter": 12,
+        "bjorck_order": 1
+      }
+    }
+  }
