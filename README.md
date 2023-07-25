@@ -11,7 +11,7 @@ The codes uses the implementation of [Lipschitz-continuous neural networks](http
 Citation:  
 ```
 @inproceedings{mbacke2023pac,  
-  title={PAC-Bayesian generalization guarantees for adversarial generative models},  
+  title={PAC-Bayesian Generalization Guarantees for Adversarial Generative Models},  
   author={Mbacke, Sokhna Diarra and Clerc, Florence and Germain, Pascal},  
   booktitle={International Conference on Machine Learning},  
   year={2023},  
